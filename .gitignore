@@ -1,0 +1,26 @@
+# General
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Rust
+/target/
+**/*.rs.bk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS resource forks
+._*
+.Spotlight-V100
+.Trashes
+
+# Neovim swap files
+*.sw?
+*.un~
